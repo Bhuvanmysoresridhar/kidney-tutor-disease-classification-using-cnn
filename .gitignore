@@ -1,0 +1,26 @@
+# Conda / Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+
+# Conda env
+conda-meta/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Model artifacts
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# Data (important!)
+data/
